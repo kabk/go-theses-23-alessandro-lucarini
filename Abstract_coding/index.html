@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 18.5px;
+}
+
+mark {
+    background-color: black;
+    color: yellow;
+    }    
+    
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+  column-count: 3;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: yellow;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: yellow;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src=img/Abstract%20video_compr.mp4 type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+    
+<div class="content">
+    <h1><mark>Abstract</mark></h1>
+<p><mark>Johannes Hofer argued that nostalgia, a word he created in 1688, and homesickness were a disease that affected people far from their homes (usually soldiers). We can define nostalgia as “homesickness”, that is what defines our belonging but more importantly our existence. Homesickness is a feeling more subjective and intimate, a place where we find comfort and refuge. Home is the place where everything is familiar, not only the place itself, but the traditions, the memories, the language and even the rules.
+According to sociologist Arnold Gehlen by nature man is homeless. Home is merely an invention. 
+Over the centuries this perception of nostalgia/homesickness has expanded from the physical to something less tangible and accessible: time.
+Svetlana Boym wrote that it can relate not only to historical and objective time but also to personal and subjective time, such as childhood. One does not necessarily have to talk about the past, which touches on the historiographical sphere, but also simply about times that are better or slower than those of the present. 
+Nostalgia is much more present in our lives than we think. In addition to the personal level, I refer to several things that surround us and that we experience every day without realizing it. An example is the Netflix series Stranger Things which is a total celebration of the 1980s in any aspect or Federico Fellini's film Amarcord which as we can understand from the title is a film based completely on the director's memories of his youth, traditions, and the Italian culture of the Riviera Romagnola. We can also find nostalgic aspects in certain Instagram pages such as Pictures from Italian Profiles that repurposes romantic and sincere, sometimes almost grotesque aspects of common life in Italy of the past moving away from the Made in Italy product created in these years of tourism globalization.
+      Instead, often the word "nostalgia" and the word "politics" together we do not think of something we like (I write as a man closer to Italian leftist circles). Nostalgia in politics has become something acclaimed by populist right-wing circles, which in Italy has never been closer to fascism than in recent years. The symbol of Prime Minister Giorgia Meloni has the tricolor fire inside it which refers to the party logo of the MSI (Italian Social Movement), which was the reincarnation of the fascist party in the post-World War II period. Of course, the Italian left is also not so far removed from this nostalgia filter, many voters still hail the old PCI (Italian Communist Party) and their support for workers' rights, which is now in its reincarnation, namely the PD (Democratic Party), is no more. Even in foreign policy, the situation is not much different, just think of the slogan Make America Great Again, which led Trump to win the U.S. election in 2017.
+      We can also find some nostalgia in architecture and how Italy is full of palaces and monuments that display fascist symbols and slogans, which tell of an uncomfortable past but cannot be torn down as some are inhabited palaces even if some collective is moving trying to tell, making people use architecture more consciously so they can understand its history.
+      Mainly my sources and research come from my homeland, Italy. In addition to looking at the Italian socio-political and pop environment, I also researched my family's video and photographic archives to understand what led me to want to investigate this aspect of our lives. I began to analyse the videos almost by instinct, trying to divide different aspects shown to me, starting from the visual ones to the more sentimental ones. I noticed how easy it is to get into the nostalgic loop of romanticizing moments and how strange it is sometimes to face reality, after years I can hardly recognize myself in those movements and in that way of behaving almost as if that child was an actor personifying myself. My parents never appear together in these videos, one of them is recording and the other is with me. I would like to understand what my parents thought and felt in filming me and what I might feel if I were filmed now. I would like to understand what makes me so attached to these videos and what role nostalgia plays in my life.
+      This is a thesis talks about the past and the present, the role the present plays in understanding the past, the role the past plays in understanding the present, the importance of archives in keeping us alive and telling us about the past, the role our birthplace plays in our lives, how archives shape our sense of belonging in a place, and whether it is possible to create in the future a new sense of belonging in a place where we were not born and raised.</mark></p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
