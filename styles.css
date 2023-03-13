@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+}
+
+/*.top-blur,
+.bottom-blur {
+  backdrop-filter: blur(5px);
+  filter: blur(30px);
+  height: 24vh;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+.top-blur > div {
+  height: 2vh;
+  width: 100%;
+  position: relative;
+}
+
+.top-blur > div:nth-of-type(1) {
+  backdrop-filter: blur(12px);
+}
+.top-blur > div:nth-of-type(2) {
+  backdrop-filter: blur(11px);
+}
+.top-blur > div:nth-of-type(3) {
+  backdrop-filter: blur(10px);
+}
+.top-blur > div:nth-of-type(4) {
+  backdrop-filter: blur(9px);
+}
+.top-blur > div:nth-of-type(5) {
+  backdrop-filter: blur(8px);
+}
+.top-blur > div:nth-of-type(6) {
+  backdrop-filter: blur(7px);
+}
+.top-blur > div:nth-of-type(7) {
+  backdrop-filter: blur(6px);
+}
+.top-blur > div:nth-of-type(8) {
+  backdrop-filter: blur(5px);
+}
+.top-blur > div:nth-of-type(9) {
+  backdrop-filter: blur(4px);
+}
+.top-blur > div:nth-of-type(10) {
+  backdrop-filter: blur(3px);
+}
+.top-blur > div:nth-of-type(11) {
+  backdrop-filter: blur(2px);
+}
+.top-blur > div:nth-of-type(12) {
+  backdrop-filter: blur(1px);
+}
+
+.bottom-blur > div {
+  height: 2vh;
+  width: 100%;
+  position: relative;
+}
+
+.bottom-blur > div:nth-of-type(1) {
+  backdrop-filter: blur(1px);
+}
+.bottom-blur > div:nth-of-type(2) {
+  backdrop-filter: blur(2px);
+}
+.bottom-blur > div:nth-of-type(3) {
+  backdrop-filter: blur(3px);
+}
+.bottom-blur > div:nth-of-type(4) {
+  backdrop-filter: blur(4px);
+}
+.bottom-blur > div:nth-of-type(5) {
+  backdrop-filter: blur(5px);
+}
+.bottom-blur > div:nth-of-type(6) {
+  backdrop-filter: blur(6px);
+}
+.bottom-blur > div:nth-of-type(7) {
+  backdrop-filter: blur(7px);
+}
+.bottom-blur > div:nth-of-type(8) {
+  backdrop-filter: blur(8px);
+}
+.bottom-blur > div:nth-of-type(9) {
+  backdrop-filter: blur(9px);
+}
+.bottom-blur > div:nth-of-type(10) {
+  backdrop-filter: blur(10px);
+}
+.bottom-blur > div:nth-of-type(11) {
+  backdrop-filter: blur(11px);
+}
+.bottom-blur > div:nth-of-type(12) {
+  backdrop-filter: blur(12px);
+}
+
+.top-blur {
+  top: 0;
+}
+
+.bottom-blur {
+  bottom: 0;
+}*/
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  text-align: center;
+  font: bold 120px Helvetica;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 80;
+}
+
+#abstract {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: bold 22px Helvetica;
+  letter-spacing: -1px;
+  margin-top: 50;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* padding-bottom: 50px; */
+  position: relative;
+  z-index: 80;
+  column-count: 2;
+}
+
+#quote {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: bold 50px Helvetica;
+  letter-spacing: -1px;
+  padding-left: 300px;
+  padding-right: 200px;
+  position: relative;
+  z-index: 80;
+}
+
+/* .blurry-text {
+  text-shadow: 0 0 15px rgb(36, 36, 36);
+  color: transparent;
+} */
+
+p {
+  position: relative;
+  /* text-shadow: 0 0 9px rgb(37, 37, 37); */
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: bold 30px Helvetica;
+  letter-spacing: -1px;
+  padding-left: 200px;
+  padding-right: 200px;
+  z-index: 80;
+}
+
+/*.paramargin {
+  margin-left: 50px;
+} */
+
+.margin {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+#Amarcord {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+}
+
+#Stranger {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+}
+
+#Lumiere {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+}
+
+#Alessandro {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  object-fit: cover;
+  z-index: 80;
+}
+
+#Aftersun {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+}
+
+.figure {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: bold 18px Helvetica;
+  letter-spacing: -1px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 80;
+}
+
+#cutup {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 100px;
+  z-index: 80;
+}
+
+.cutupsecond {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+}
+
+#paperline-top {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 80;
+  margin-top: 30;
+}
+
+#paperline-bottom {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  z-index: 80;
+}
+
+#sources {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: bold 22px Helvetica;
+  letter-spacing: -1px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 80;
+  column-count: 2;
+}
+
+#endnotes {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: block;
+  font: 20px Helvetica;
+  letter-spacing: -1px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 80;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* 
+#myVideo {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+} */
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    text-align: center;
+    font: bold 40px Helvetica;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    /* padding-left: 200px;
+          padding-right: 200px; */
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 80;
+  }
+
+  #abstract {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: bold 12px Helvetica;
+    letter-spacing: -1px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 50px; */
+    position: relative;
+    z-index: 80;
+    column-count: 2;
+  }
+
+  p {
+    position: relative;
+    /* text-shadow: 0 0 9px rgb(37, 37, 37); */
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: bold 20px Helvetica;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    padding: 0 10 0 10;
+    z-index: 80;
+  }
+
+  #quote {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: bold 30px Helvetica;
+    letter-spacing: -1px;
+    padding: 0 10 0 10;
+    position: relative;
+    z-index: 80;
+  }
+
+  .margin {
+    display: inline-block;
+    margin-left: 30;
+  }
+
+  #Amarcord {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #Stranger {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #Lumiere {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #Alessandro {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #Aftersun {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  .figure {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: bold 12px Helvetica;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    padding: 0 0 0 10;
+    position: relative;
+    z-index: 80;
+  }
+
+  #cutup {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+    padding: 0;
+  }
+
+  .cutupsecond {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #paperline-top {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 80;
+  }
+
+  #paperline-bottom {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    padding: 50 0 50 0;
+    z-index: 80;
+  }
+
+  #sources {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: bold 12px Helvetica;
+    letter-spacing: -1px;
+    padding: 0 10px 0 10px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 80;
+    column-count: 2;
+  }
+
+  #endnotes {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    display: block;
+    font: 12px Helvetica;
+    letter-spacing: -1px;
+    padding: 0 10px 10px 10px;
+    position: relative;
+    z-index: 80;
+  }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
